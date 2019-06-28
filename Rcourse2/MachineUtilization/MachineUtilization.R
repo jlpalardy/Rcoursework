@@ -12,7 +12,7 @@
 #Plot:            For all machines
 
 #Import the data and explore it
-setwd("/home/jess/Downloads")
+setwd("~/Rcourses/Rcourse2/MachineUtilization")
 data_util <- read.csv("P3-Machine-Utilization.csv")
 
 str(data_util)

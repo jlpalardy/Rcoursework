@@ -1,8 +1,9 @@
 #Domestic Gross % by Genre (Movie Data)
 
-#Import data
-setwd("/home/jess/")
-df <- read.csv("movieGross.csv")
+#Import data 
+getwd()
+setwd("~/Rcourses/Rcourse1/MoviesGross")
+df <- read.csv("Section6-Homework-Data.csv")
 head(df)
 tail(df)
 str(df)

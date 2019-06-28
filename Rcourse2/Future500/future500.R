@@ -2,7 +2,7 @@
 #Data cleaning exercise
 
 #Import data, explore 
-setwd("/home/jess/Downloads")
+setwd("/home/jess/Rcourses/Rcourse2/Future500")
 fin <- read.csv("P3-Future-500-The-Dataset.csv", na.strings = c(""))
 
 str(fin)

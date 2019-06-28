@@ -1,5 +1,5 @@
 #Import movie data, set up packages
-setwd("/home/jess/Documents")
+setwd("/home/jess/Rcourses/Rcourse1/MovieRatings")
 df <- read.csv("P2-Movie-Ratings.csv")
 library(ggplot2)
 #Take a look at the data

@@ -11,7 +11,7 @@
 #5. A table showing in which months the annual maximums of each metric were observed 
 #in every city (Advanced)
 
-setwd("/home/jess/Downloads/P3-Weather-Data/Weather.Data")
+setwd("/home/jess/Rcourses/Rcourse2/Weather/P3-Weather-Data/Weather.Data")
 
 #We have 2 files for each city. We are choosing the files in Celsius.
 Chicago <- read.csv("Chicago-C.csv", row.names = 1)# The row.names = 1 keeps the row names from being col # 1
